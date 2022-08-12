@@ -5,8 +5,12 @@ function clicked() {
   const creating = document.createElement('p');
   // Log created element in console
   console.log(creating);
+  // Get text input.
+  const valueNeeded = document.getElementById("get-me").value;
+  // Add class to content
+  creating.className = 'sample';
   // Create content with js
-  const createContent = document.createTextNode('We did it');
+  const createContent = document.createTextNode(valueNeeded);
   // Console log content
   console.log(createContent);
   // Add created content to created element
