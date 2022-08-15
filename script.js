@@ -5,8 +5,11 @@ function clicked() {
   // Create a `p` element
   const creating = document.createElement('p');
   console.log(creating);
+  // Get input value
+  const data = document.getElementById('get-me').value;
+  console.log(data);
   // Create a text node
-  const createContent = document.createTextNode('Who\'s awesome? You\'re awesome!');
+  const createContent = document.createTextNode(data);
   console.log(createContent);
   // Add the text to the p element
   creating.appendChild(createContent);
@@ -17,8 +20,4 @@ function clicked() {
   console.log(getByClass);
   // Append this with the p element
   getByClass.appendChild(creating);
-  // Get input value
-  const data = document.getElementById('get-me').value;
-  console.log(data);
-  
 }
