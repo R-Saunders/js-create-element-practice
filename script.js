@@ -1,3 +1,4 @@
+'use strict'
 function clicked() {
   // Console Log
   console.log('You\'re simply the best!');
@@ -10,10 +11,10 @@ function clicked() {
   // Add the text to the p element
   creating.appendChild(createContent);
   // Add Class Name to p tag
-  creating.className = 'get-me';
+  creating.className = 'classx';
   // Get element by class
-  const getByClass = document.getElementsByClassName('get-me')[0];
+  const getByClass = document.getElementsByClassName('testing')[0];
   console.log(getByClass);
   // Append this with the p element
-  getByClass.appendChild(createContent);
+  getByClass.appendChild(creating);
 }
