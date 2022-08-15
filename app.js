@@ -20,6 +20,6 @@ function clicked() {
   // Console log new variable and captured element
   console.log(elementCaptured);
   // Add created content to created element within element on the DOM.
-  elementCaptured.appendChild(creating)
+  elementCaptured.appendChild(creating);
 
 }
