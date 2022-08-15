@@ -1,4 +1,8 @@
 'use strict'
+
+const getButton = document.getElementById('test-button');
+getButton.addEventListener('click', clicked);
+
 function clicked() {
   // Console Log
   console.log('You\'re simply the best!');
