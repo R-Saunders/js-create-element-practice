@@ -17,4 +17,8 @@ function clicked() {
   console.log(getByClass);
   // Append this with the p element
   getByClass.appendChild(creating);
+  // Get input value
+  const data = document.getElementById('get-me').value;
+  console.log(data);
+  
 }
